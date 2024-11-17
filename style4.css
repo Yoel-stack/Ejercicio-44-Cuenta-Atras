@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(240, 225, 86);
+    font-family: "Titillium Web";
+}
+
+h1{
+    background-color: rgb(225, 208, 57);
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 15%;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    border-radius: 4px;
+    border: 1.5px solid;
+    box-shadow: 2px 2px 4px;
+}
+.container{
+    background-color: rgb(85, 134, 154);
+    display: flex;
+    text-align: center;    
+    justify-content: center;
+    margin: 20%;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1.5px solid;
+    box-shadow: 2px 2px 4px;
+}
+.text{
+    font-size: 40px;
+    margin: 20px;
+    color: black;
+}
+span{
+    margin: 10px;
+    font-size: 17px;
+    color: black;
+}
