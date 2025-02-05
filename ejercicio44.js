@@ -19,18 +19,19 @@
  */
 
 
+
 const days = document.getElementById("days")
 const hours = document.getElementById("hours")
 const minutes = document.getElementById("minutes")
 const seconds = document.getElementById("seconds")
 
 //Fecha de finalizacion cuenta atras
-const navidad = `25 Dec 2024` 
+const cumple = `3 Jul 2025` 
 
 function cuentaAtras(){
-    const navidadDate = new Date(navidad);
+    const cumpleDate = new Date(cumple);
     const fechaActual = new Date();
-    const totalSec = (navidadDate - fechaActual) / 1000;
+    const totalSec = (cumpleDate - fechaActual) / 1000;
 
     const totalDays = Math.floor(totalSec / 3600 / 24);
     const totalHours = Math.floor(totalSec / 3600) % 24;
